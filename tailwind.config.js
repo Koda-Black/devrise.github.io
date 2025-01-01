@@ -3,6 +3,14 @@ export default {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
 
   theme: {
+    screens: {
+      usm: "340px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
     extend: {
       animation: {
         "move-arrow": "move 1.5s ease-in-out infinite",
@@ -11,6 +19,13 @@ export default {
         move: {
           "0%, 100%": { transform: "translateX(0)" },
           "50%": { transform: "translateX(10px)" },
+        },
+        slide: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+        animation: {
+          slide: "slide 20s linear infinite",
         },
       },
       backgroundImage: {
@@ -30,6 +45,7 @@ export default {
         // "hero-light": "#FDFFFF",
         "light-dark": "#1E1E1E",
         "light-grey": "#F0F0FA",
+        "primary-color": "#3255F1",
         milk: "#E6EEFD",
         "dark-blue": "#0653EA",
         "sky-blue": "#F4F8FF",
@@ -74,13 +90,6 @@ export default {
       },
       transitionDuration: {
         2000: "5000ms",
-      },
-      screens: {
-        sm: "640px",
-        md: "768px",
-        lg: "1024px",
-        xl: "1280px",
-        "2xl": "1536px",
       },
     },
   },

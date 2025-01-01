@@ -110,11 +110,11 @@ const Footer = () => {
               </li>
               <li className="relative">
                 <input
-                  className="text-dark bg-white text-md p-2 font-semibold rounded-sm w-full pr-12"
+                  className="text-dark bg-white text-md p-4 font-semibold rounded-sm max-w-[18rem] pr-12"
                   placeholder="Enter Your Email"
                 />
                 <button
-                  className="absolute inset-y-0 right-0 w-15 h-10 flex items-center justify-center bg-red-600 hover:bg-red-700 rounded-sm outline-none animate-move-arrow"
+                  className="absolute inset-y-0 right-0 w-15 h-15 flex items-center justify-center bg-red-600 hover:bg-red-700 rounded-sm outline-none animate-move-arrow"
                   onClick={() => alert("Arrow clicked!")}
                 >
                   <FaArrowRight className="h-5 w-5 text-white" />
@@ -126,7 +126,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Social Media */}
-      <div className="mt-12 py-6 px-16 bg-slate-500 text-white uppercase flex justify-between items-center">
+      <div className="mt-12 py-6 px-16 bg-slate-500 text-white uppercase flex usm:flex-col-reverse usm:gap-8 justify-between items-center">
         <p>&copy; Devrise 2024. All rights reserved.</p>
         <div className="flex space-x-6">
           {socialIcons.map((social, index) => (

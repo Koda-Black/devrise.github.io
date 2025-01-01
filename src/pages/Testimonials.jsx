@@ -1,19 +1,19 @@
-import movingCouple from "../assets/images/moving-couple.jpg";
-import oldCouple from "../assets/images/old-couple.jpg";
+import movingCouple from "../assets/images/moving-couple.webp";
+import oldCouple from "../assets/images/old-couple.webp";
 import vanCouple from "../assets/images/van-couple.jpg";
 
 const Testimonials = () => {
   return (
     <section>
-      <div className="py-40">
+      <div className="py-40 usm:px-8 usm:py-20">
         <h2 className="text-base font-semibold leading-7 text-gray-900">
           Great Testimonials
         </h2>
-        <p className="mt-2 text-3xl font-bold tracking-tight text-indigo-600 sm:text-4xl uppercase">
+        <p className="mt-2 text-3xl font-bold tracking-tight text-primary-color usm:text-2xl uppercase">
           What our students are saying
         </p>
-        <div className="flex justify-center px-20 py-10">
-          <div className="flex flex-row space-x-10">
+        <div className="flex justify-center px-20  usm:px-0 py-10">
+          <div className="flex flex-row usm:flex-col usm:space-x-0 usm:gap-8 space-x-10">
             <div className="h-full w-full p-6 bg-white rounded-lg shadow-md flex flex-col">
               <div className="flex flex-row space-x-4 pb-6">
                 <img

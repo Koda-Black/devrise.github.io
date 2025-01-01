@@ -49,8 +49,8 @@ const FAQs = () => {
 
   return (
     <section>
-      <div className="bg-light-blue2 pt-40">
-        <div className="flex flex-wrap justify-between px-16">
+      <div className="bg-light-blue2 pt-40 usm:pt-0 usm:mt-[30rem] usm:mb-20 usm:pb-8">
+        <div className="flex flex-wrap justify-between px-16 usm:px-8">
           <div className="w-full lg:w-2/5 mb-8 lg:mb-0 h-full">
             <img
               src={faqLady}
@@ -58,8 +58,8 @@ const FAQs = () => {
               className="w-full h-full object-cover lg:w-4/5 transform scale-x-[-1]"
             />
           </div>
-          <div className="relative w-full lg:w-3/5 flex flex-col justify-center text-left">
-            <h2 className="text-base font-semibold leading-7 text-indigo-600">
+          <div className="relative w-full lg:w-3/5 flex flex-col justify-center text-left usm:mt-[-12rem]">
+            <h2 className="text-base font-semibold leading-7 text-primary-color">
               FAQ
             </h2>
             <p className="text-2xl font-bold tracking-tight text-dark sm:text-4xl uppercase text-left mb-8">
@@ -70,7 +70,7 @@ const FAQs = () => {
                 <div key={index} className="bg-white shadow-md rounded-md p-2">
                   <button
                     onClick={() => toggleAccordion(index)}
-                    className="w-full text-left text-lg font-medium text-dark focus:outline-none flex justify-between items-center bg-white"
+                    className="w-full text-left text-lg usm:text-md font-medium text-dark focus:outline-none flex justify-between items-center bg-white"
                   >
                     {item.question}
                     <ChevronDownIcon
@@ -89,17 +89,17 @@ const FAQs = () => {
           </div>
         </div>
       </div>
-      <div className="relative bg-gradient-to-l from-indigo-600 via-blue-400 to-pink-400 pt-32 pb-16">
+      <div className="relative pt-32 pb-16 usm:px-8 usm:pt-8">
         <div className="relative">
-          <p className="mx-auto text-3xl font-bold tracking-tight text-white sm:text-4xl uppercase">
+          <p className="mx-auto text-3xl usm:text-2xl font-bold tracking-tight text-black sm:text-4xl uppercase">
             Our mentors are from
           </p>
-          <div className="overflow-x-auto py-10">
-            <div className="flex space-x-20 items-center justify-center">
+          <div className="overflow-hidden py-10">
+            <div className="inline-flex space-x-20 usm:space-x-0 items-center justify-center animate-slide">
               {logos.map((logo, index) => (
                 <div
                   key={index}
-                  className="flex items-center justify-center w-40 p-4 rounded-lg"
+                  className="flex items-center justify-center w-40 usm:w-32 p-4 rounded-lg"
                 >
                   <img
                     src={logo.src}

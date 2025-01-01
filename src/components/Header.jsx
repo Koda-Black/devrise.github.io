@@ -41,7 +41,7 @@ const Header = () => {
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 items-center">
                     <img
-                      className="h-16  sm:h-12 md:h-14"
+                      className="h-16  usm:h-12 md:h-14"
                       // src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                       src={copyLogo}
                       alt="Your Company"
@@ -59,7 +59,7 @@ const Header = () => {
                             item.current
                               ? "bg-gray-900 text-white"
                               : "text-dark hover:bg-gray-700 hover:text-white",
-                            "rounded-md px-3 py-2 text-md font-medium uppercase"
+                            "rounded-md px-3 sm:px-0 py-2 text-md font-medium uppercase"
                           )}
                           aria-current={item.current ? "page" : undefined}
                         >
