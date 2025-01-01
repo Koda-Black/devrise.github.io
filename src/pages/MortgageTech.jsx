@@ -57,7 +57,7 @@ const MortgageTech = () => {
   // ];
 
   return (
-    <section className="lg:pl-16 lg:pr-0 py-16">
+    <section className="lg:pl-16 lg:pr-0 xl:px-24 py-16">
       <div className="overflow-hidden lg:py-16 lg:px-0 py-24 sm:py-32 sm:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">

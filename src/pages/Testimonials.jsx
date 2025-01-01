@@ -5,7 +5,7 @@ import vanCouple from "../assets/images/van-couple.jpg";
 const Testimonials = () => {
   return (
     <section>
-      <div className="py-40 usm:px-8 usm:py-20">
+      <div className="py-40 usm:px-8 usm:py-20 xl:px-24">
         <h2 className="text-base font-semibold leading-7 text-gray-900">
           Great Testimonials
         </h2>

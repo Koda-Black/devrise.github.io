@@ -50,7 +50,7 @@ const Footer = () => {
 
   return (
     <section className="bg-black">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-10 xl:px-24 mxl:max-w-[100%]">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-left">
           {/* Logo and Address */}
           <div>
@@ -126,7 +126,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Social Media */}
-      <div className="mt-12 py-6 px-16 bg-slate-500 text-white uppercase flex usm:flex-col-reverse lg:flex-row usm:gap-8 justify-between items-center">
+      <div className="mt-12 py-6 px-16 bg-slate-500 text-white uppercase flex usm:flex-col-reverse lg:flex-row usm:gap-8 justify-between items-center mxl:px-24">
         <p>&copy; Devrise 2024. All rights reserved.</p>
         <div className="flex space-x-6">
           {socialIcons.map((social, index) => (

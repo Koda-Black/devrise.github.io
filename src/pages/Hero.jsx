@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="bg-cover bg-center lg:px-16">
+    <section className="bg-cover bg-center lg:px-16 xl:px-24">
       <div className="relative isolate px-16 pt-14 lg:px-0 usm:pt-0 usm:px-8">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"

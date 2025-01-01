@@ -49,16 +49,16 @@ const FAQs = () => {
 
   return (
     <section>
-      <div className="bg-light-blue2 pt-40 lg:pt-80 usm:pt-0 usm:mt-[30rem] lg:mt-0 usm:pb-8">
-        <div className="flex flex-wrap justify-between px-16 usm:px-8">
-          <div className="w-full lg:w-2/5 mb-8 lg:mb-0 h-full">
+      <div className="bg-light-blue2 pt-40 lg:pt-80 lg:pb-0 usm:pt-0 usm:mt-[30rem] lg:mt-0 xl:mt-0 xl:pb-0 usm:pb-8">
+        <div className="flex flex-wrap justify-between px-16 usm:px-8 xl:px-24">
+          <div className="w-full lg:w-2/5 mb-8 lg:mb-0 xl:mb-0 h-full">
             <img
               src={faqLady}
               alt="FAQ"
-              className="w-full h-full object-cover lg:w-4/5 transform scale-x-[-1]"
+              className="w-full h-full object-cover lg:w-[90%] xl:w-[100%] transform scale-x-[-1]"
             />
           </div>
-          <div className="relative w-full lg:w-3/5 flex flex-col justify-center text-left usm:mt-[-12rem] sm:mt-[-18rem]">
+          <div className="relative w-full lg:w-3/5 flex flex-col justify-center text-left usm:mt-[-12rem] sm:mt-[-18rem] xl:mt-0">
             <h2 className="text-base font-semibold leading-7 text-primary-color">
               FAQ
             </h2>
@@ -89,7 +89,7 @@ const FAQs = () => {
           </div>
         </div>
       </div>
-      <div className="relative pt-32 pb-16 usm:px-8 usm:pt-8">
+      <div className="relative pt-32 pb-16 usm:px-8 usm:pt-8 xl:pt-40">
         <div className="relative">
           <p className="mx-auto text-3xl usm:text-2xl font-bold tracking-tight text-black sm:text-4xl uppercase">
             Our mentors are from
