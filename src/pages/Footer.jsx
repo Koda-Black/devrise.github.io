@@ -126,7 +126,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Social Media */}
-      <div className="mt-12 py-6 px-16 bg-slate-500 text-white uppercase flex usm:flex-col-reverse usm:gap-8 justify-between items-center">
+      <div className="mt-12 py-6 px-16 bg-slate-500 text-white uppercase flex usm:flex-col-reverse lg:flex-row usm:gap-8 justify-between items-center">
         <p>&copy; Devrise 2024. All rights reserved.</p>
         <div className="flex space-x-6">
           {socialIcons.map((social, index) => (
