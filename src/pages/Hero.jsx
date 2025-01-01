@@ -14,7 +14,7 @@ const Hero = () => {
             }}
           />
         </div> */}
-        <div className="ml-0 max-w-2xl py-20 sm:py-48 lg:py-20 usm:pb-8">
+        <div className="ml-0 max-w-2xl py-20 sm:py-40 lg:py-20 usm:pb-8">
           <div className="text-left usm:text-center">
             <p className="mt-6 text-lg leading-8 text-gray-600">WE ARE</p>
             <h1 className="font-bold tracking-tight text-gray-900 usm:text-4xl usm:font-semibold usm:pb-8 usm:pt-4">

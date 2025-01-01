@@ -12,9 +12,9 @@ const Testimonials = () => {
         <p className="mt-2 text-3xl font-bold tracking-tight text-primary-color usm:text-2xl uppercase">
           What our students are saying
         </p>
-        <div className="flex justify-center px-20  usm:px-0 py-10">
-          <div className="flex flex-row usm:flex-col usm:space-x-0 usm:gap-8 space-x-10">
-            <div className="h-full w-full p-6 bg-white rounded-lg shadow-md flex flex-col">
+        <div className="px-20 usm:px-0 py-10">
+          <div className="flex flex-col md:flex-row justify-center usm:flex-col usm:space-x-0 usm:gap-8 space-x-10">
+            <div className="h-full w-full p-6 md:p-4 bg-white rounded-lg shadow-md flex flex-col">
               <div className="flex flex-row space-x-4 pb-6">
                 <img
                   src={movingCouple}
@@ -41,8 +41,8 @@ const Testimonials = () => {
                   className="w-[50px] h-auto object-cover rounded-full"
                 />
                 <div className="text-left">
-                  <p className="font-bold text-base">Chukwu Oluebube</p>
-                  <small>Dumbely Wool Works</small>
+                  <p className="font-bold text-base">C. Oluebube</p>
+                  <small>Dumbely Wool</small>
                 </div>
               </div>
               <p className="text-center pb-4">

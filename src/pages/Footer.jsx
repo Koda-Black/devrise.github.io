@@ -103,18 +103,18 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-                <p className="text-gray-400 text-sml py-5">
+                <p className="text-gray-400 text-sml py-5 sm:w-[60%]">
                   Join our mailing list to receive information about our work
                   and new learning opportunities
                 </p>
               </li>
-              <li className="relative">
+              <li className="relative flex items-center">
                 <input
-                  className="text-dark bg-white text-md p-4 font-semibold rounded-sm max-w-[18rem] pr-12"
+                  className="text-dark bg-white text-md p-4 font-semibold rounded-l-sm max-w-[18rem] flex-grow pr-12"
                   placeholder="Enter Your Email"
                 />
                 <button
-                  className="absolute inset-y-0 right-0 w-15 h-15 flex items-center justify-center bg-red-600 hover:bg-red-700 rounded-sm outline-none animate-move-arrow"
+                  className="w-16 h-16 flex items-center sm:ml-[-2rem] justify-center bg-red-600 hover:bg-red-700 rounded-sm outline-none animate-move-arrow"
                   onClick={() => alert("Arrow clicked!")}
                 >
                   <FaArrowRight className="h-5 w-5 text-white" />
