@@ -49,7 +49,7 @@ const FAQs = () => {
 
   return (
     <section>
-      <div className="bg-light-blue2 pt-40 usm:pt-0 usm:mt-[30rem] usm:pb-8">
+      <div className="bg-light-blue2 pt-40 lg:pt-80 usm:pt-0 usm:mt-[30rem] lg:mt-0 usm:pb-8">
         <div className="flex flex-wrap justify-between px-16 usm:px-8">
           <div className="w-full lg:w-2/5 mb-8 lg:mb-0 h-full">
             <img
@@ -62,7 +62,7 @@ const FAQs = () => {
             <h2 className="text-base font-semibold leading-7 text-primary-color">
               FAQ
             </h2>
-            <p className="text-2xl font-bold tracking-tight text-dark sm:text-4xl uppercase text-left mb-8 sm:text-white">
+            <p className="text-2xl font-bold tracking-tight text-dark sm:text-4xl uppercase text-left mb-8 sm:text-white lg:text-dark">
               Frequently <br /> asked questions
             </p>
             <div className="space-y-1">

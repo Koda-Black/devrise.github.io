@@ -58,7 +58,7 @@ const MortgageTech = () => {
 
   return (
     <section className="lg:pl-16 lg:pr-0 py-16">
-      <div className="overflow-hidden py-24 sm:py-32 sm:px-8">
+      <div className="overflow-hidden lg:py-16 lg:px-0 py-24 sm:py-32 sm:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="text-left lg:pr-8 lg:pt-4">
@@ -75,7 +75,7 @@ const MortgageTech = () => {
                   a manner it does not interfere with their daily jobs, and
                   providing a community to enable their fast-paced growth.
                 </p>
-                <dl className="mt-0 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                <dl className="mt-0 max-w-xl space-y-8 lg:space-y-4 text-base leading-7 text-gray-600 lg:max-w-none">
                   {features.map((feature) => (
                     <div key={feature.name} className="relative pl-9">
                       <dt className="inline font-semibold text-gray-900">

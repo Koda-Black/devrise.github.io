@@ -42,7 +42,6 @@ const Header = () => {
                   <div className="flex flex-shrink-0 items-center">
                     <img
                       className="h-16  usm:h-12 md:h-14"
-                      // src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                       src={copyLogo}
                       alt="Your Company"
                     />

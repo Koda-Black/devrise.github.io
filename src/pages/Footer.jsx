@@ -103,14 +103,14 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-                <p className="text-gray-400 text-sml py-5 sm:w-[60%]">
+                <p className="text-gray-400 text-sml py-5 sm:w-[60%] lg:w-[100%]">
                   Join our mailing list to receive information about our work
                   and new learning opportunities
                 </p>
               </li>
               <li className="relative flex items-center">
                 <input
-                  className="text-dark bg-white text-md p-4 font-semibold rounded-l-sm max-w-[18rem] flex-grow pr-12"
+                  className="text-dark bg-white text-md p-4 font-semibold rounded-l-sm max-w-[18rem] flex-grow pr-12 lg:pr-0 lg:w-[70%]"
                   placeholder="Enter Your Email"
                 />
                 <button
