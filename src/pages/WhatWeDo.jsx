@@ -114,7 +114,7 @@ const WhatWeDo = () => {
               <img
                 src={frontend}
                 alt="Mortgage Home screenshot"
-                className="mxl:w-[350px] xl:w-[350px] sm:w-[300px] h-auto object-cover"
+                className="mxl:w-[350px] xl:w-[350px] sm:w-[300px] h-auto object-cover rounded-tl-xl rounded-tr-xl md:rounded-xl lg:rounded-none xl:rounded-none"
               />
               <div className="sm:flex sm:flex-col sm:pl-4 lg:pl-0">
                 <h3 className="lg:mt-4 sm:mt-0 sm:mb-4 sm:text-lg text-center sm:text-left lg:text-center font-bold py-4 sm:py-0">
@@ -132,7 +132,7 @@ const WhatWeDo = () => {
               <img
                 src={backend}
                 alt="Mortgage Home screenshot"
-                className="mxl:w-[350px] xl:w-[350px] sm:w-[300px] h-auto object-cover"
+                className="mxl:w-[350px] xl:w-[350px] sm:w-[300px] h-auto object-cover rounded-tl-xl rounded-tr-xl md:rounded-xl lg:rounded-none xl:rounded-none"
               />
               <div className="sm:flex sm:flex-col sm:pl-4 lg:pl-0">
                 <h3 className="lg:mt-4 sm:mt-0 sm:mb-4 sm:text-lg lg:text-center text-center sm:text-left font-bold py-4 sm:py-0">
@@ -149,7 +149,7 @@ const WhatWeDo = () => {
               <img
                 src={productDesign}
                 alt="Mortgage Home screenshot"
-                className="mxl:w-[350px] xl:w-[350px] sm:w-[300px] h-auto object-cover"
+                className="mxl:w-[350px] xl:w-[350px] sm:w-[300px] h-auto object-cover rounded-tl-xl rounded-tr-xl md:rounded-xl lg:rounded-none xl:rounded-none"
               />
               <div className="sm:flex sm:flex-col sm:pl-4 lg:pl-0">
                 <h3 className="lg:mt-4 sm:mt-0 sm:mb-4 sm:text-lg lg:text-center sm:text-left font-bold py-4 sm:py-0">
