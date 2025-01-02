@@ -39,10 +39,19 @@ const Footer = () => {
   ];
 
   const socialIcons = [
-    { icon: <FaLinkedinIn />, href: "#" },
-    { icon: <FaFacebookF />, href: "#" },
-    { icon: <FaTwitter />, href: "#" },
-    { icon: <FaInstagram />, href: "#" },
+    { icon: <FaLinkedinIn />, href: "https://www.linkedin.com/in/kodablack" },
+    {
+      icon: <FaFacebookF />,
+      href: "https://www.facebook.com/share/15cJeTvmq3/",
+    },
+    {
+      icon: <FaTwitter />,
+      href: "https://x.com/thedevrise?t=vZktmw3ytCZwX4_TGtqxfg&s=09",
+    },
+    {
+      icon: <FaInstagram />,
+      href: "https://www.instagram.com/thedevrise/profilecard/?igsh=dmNzdzRkZHZjMXRi",
+    },
     { icon: <FaTiktok />, href: "#" },
     { icon: <FaYoutube />, href: "#" },
     { icon: <FaMediumM />, href: "#" },
@@ -127,7 +136,7 @@ const Footer = () => {
 
       {/* Footer Social Media */}
       <div className="mt-12 py-6 px-16 bg-slate-500 text-white uppercase flex usm:flex-col-reverse lg:flex-row usm:gap-8 justify-between items-center mxl:px-24">
-        <p>&copy; Devrise 2024. All rights reserved.</p>
+        <p className="usm:text-sm">&copy; Devrise 2024. All rights reserved.</p>
         <div className="flex space-x-6">
           {socialIcons.map((social, index) => (
             <a

@@ -56,7 +56,7 @@ const Header = () => {
                           key={item.name}
                           to={item.href}
                           smooth={true}
-                          duration={1000}
+                          duration={3000}
                           className={classNames(
                             item.current
                               ? "bg-gray-900 text-white"

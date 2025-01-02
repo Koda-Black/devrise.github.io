@@ -70,7 +70,7 @@ const FAQs = () => {
                 <div key={index} className="bg-white shadow-md rounded-md p-2">
                   <button
                     onClick={() => toggleAccordion(index)}
-                    className="w-full text-left text-lg font-medium text-dark focus:outline-none flex justify-between items-center bg-white border border-transparent"
+                    className="w-full text-left text-lg usm:text-md font-medium text-dark focus:outline-none flex justify-between items-center bg-white border border-transparent"
                   >
                     {item.question}
                     <ChevronDownIcon
@@ -81,7 +81,9 @@ const FAQs = () => {
                     />
                   </button>
                   {activeIndex === index && (
-                    <div className="mt-2 text-gray-700 px-6">{item.answer}</div>
+                    <div className="mt-2 usm:text-md text-gray-700 px-6">
+                      {item.answer}
+                    </div>
                   )}
                 </div>
               ))}
