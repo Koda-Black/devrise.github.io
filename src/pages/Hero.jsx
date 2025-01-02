@@ -21,7 +21,7 @@ const Hero = () => {
                 Join our Community
               </a>
               <a
-                href="#"
+                href="https://wa.link/hr1emn"
                 className="text-md font-semibold leading-6 text-gray-900"
               >
                 Learn more <span aria-hidden="true">→</span>

@@ -5,7 +5,6 @@ import {
   FaYoutube,
   FaLinkedinIn,
   FaTwitter,
-  FaMediumM,
   FaArrowRight,
 } from "react-icons/fa";
 
@@ -20,7 +19,7 @@ const Footer = () => {
         { name: "Our vision", href: "#" },
         { name: "Courses", href: "#" },
         { name: "Our strategy", href: "#" },
-        { name: "Career pivot", href: "#" },
+        { name: "Career pivot", href: "https://tinyurl.com/Career-pivot" },
         { name: "Community tour", href: "#" },
       ],
     },
@@ -39,22 +38,21 @@ const Footer = () => {
   ];
 
   const socialIcons = [
-    { icon: <FaLinkedinIn />, href: "https://www.linkedin.com/in/kodablack" },
+    { icon: <FaLinkedinIn />, href: "https://tinyurl.com/LinkedIn-Devrise" },
     {
       icon: <FaFacebookF />,
-      href: "https://www.facebook.com/share/15cJeTvmq3/",
+      href: "https://tinyurl.com/facebook-devrise",
     },
     {
       icon: <FaTwitter />,
-      href: "https://x.com/thedevrise?t=vZktmw3ytCZwX4_TGtqxfg&s=09",
+      href: "https://tinyurl.com/X-Devrise",
     },
     {
       icon: <FaInstagram />,
-      href: "https://www.instagram.com/thedevrise/profilecard/?igsh=dmNzdzRkZHZjMXRi",
+      href: "https://tinyurl.com/Instagram-Devrise",
     },
     { icon: <FaTiktok />, href: "#" },
-    { icon: <FaYoutube />, href: "#" },
-    { icon: <FaMediumM />, href: "#" },
+    { icon: <FaYoutube />, href: "https://tinyurl.com/Youtube-Devrise" },
   ];
 
   return (
