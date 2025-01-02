@@ -50,7 +50,7 @@ const Footer = () => {
 
   return (
     <section className="bg-black">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-10 xl:px-24 mxl:max-w-[100%]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-10 xl:px-20 mxl:max-w-[100%]">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-left">
           {/* Logo and Address */}
           <div>
@@ -114,7 +114,7 @@ const Footer = () => {
                   placeholder="Enter Your Email"
                 />
                 <button
-                  className="w-16 h-16 flex items-center sm:ml-[-2rem] justify-center bg-red-600 hover:bg-red-700 rounded-sm outline-none animate-move-arrow"
+                  className="w-16 h-16 flex items-center sm:ml-[-2rem] usm:ml-[-1rem] justify-center bg-red-600 hover:bg-red-700 rounded-sm outline-none animate-move-arrow"
                   onClick={() => alert("Arrow clicked!")}
                 >
                   <FaArrowRight className="h-5 w-5 text-white" />

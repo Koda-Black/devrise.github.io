@@ -62,7 +62,7 @@ const FAQs = () => {
             <h2 className="text-base font-semibold leading-7 text-primary-color">
               FAQ
             </h2>
-            <p className="text-2xl font-bold tracking-tight text-dark sm:text-4xl uppercase text-left mb-8 sm:text-white lg:text-dark">
+            <p className="text-2xl font-bold tracking-tight text-dark sm:text-4xl uppercase text-left mb-8 sm:text-white usm:text-white lg:text-dark">
               Frequently <br /> asked questions
             </p>
             <div className="space-y-1">
