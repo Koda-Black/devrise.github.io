@@ -15,13 +15,13 @@ const Hero = () => {
             </h1>
             <div className="mt-10 flex items-center usm:justify-center gap-x-6 lg:justify-start lg:gap-x-10">
               <a
-                href="#"
+                href="https://wa.link/hr1emn"
                 className="rounded-md bg-primary-color px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Join our Community
               </a>
               <a
-                href="https://wa.link/hr1emn"
+                href="#"
                 className="text-md font-semibold leading-6 text-gray-900"
               >
                 Learn more <span aria-hidden="true">→</span>
