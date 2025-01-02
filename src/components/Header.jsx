@@ -29,7 +29,7 @@ const Header = () => {
               <div className="relative flex h-24 items-center justify-between">
                 <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                   {/* Mobile menu button */}
-                  <DisclosureButton className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                  <DisclosureButton className="menu-button relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                     <span className="absolute -inset-0.5" />
                     <span className="sr-only">Open main menu</span>
                     {open ? (
@@ -59,7 +59,7 @@ const Header = () => {
                           duration={3000}
                           className={classNames(
                             item.current
-                              ? "bg-gray-900 text-white"
+                              ? "bg-gray-900 text-white"(item.name - "btn")
                               : "text-dark hover:bg-gray-700 hover:text-white",
                             "rounded-md px-3 sm:px-0 lg:px-6 xl:px-8 2xl:px-10 py-2 text-md font-medium uppercase cursor-pointer"
                           )}

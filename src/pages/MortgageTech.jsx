@@ -113,10 +113,11 @@ const MortgageTech = () => {
             <div className="sm:flex usm:flex sm:justify-center usm:justify-center md:block lg:block">
               <img
                 src={TechGirl}
-                alt="Mortgage Home screenshot"
+                alt="Hero Image"
                 className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 usm:w-[57rem] usm:rounded-none md:-ml-4 lg:-ml-0"
                 width={2432}
                 height={1442}
+                loading="lazy"
               />
             </div>
           </div>

@@ -54,7 +54,8 @@ const FAQs = () => {
           <div className="w-full lg:w-2/5 mb-8 lg:mb-0 xl:mb-0 h-full">
             <img
               src={faqLady}
-              alt="FAQ"
+              loading="lazy"
+              alt="Faqs Image"
               className="w-full h-full object-cover lg:w-[90%] xl:w-[100%] transform scale-x-[-1]"
             />
           </div>

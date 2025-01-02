@@ -18,7 +18,8 @@ const Testimonials = () => {
               <div className="flex flex-row space-x-4 pb-6">
                 <img
                   src={movingCouple}
-                  alt="Mortgage Home screenshot"
+                  alt="Testimonial image"
+                  loading="lazy"
                   className="w-[50px] h-auto object-cover rounded-full"
                 />
                 <div className="text-left">
@@ -37,7 +38,8 @@ const Testimonials = () => {
               <div className="flex flex-row space-x-4 pb-6">
                 <img
                   src={vanCouple}
-                  alt="Mortgage Home screenshot"
+                  loading="lazy"
+                  alt="Testimonial image"
                   className="w-[50px] h-auto object-cover rounded-full"
                 />
                 <div className="text-left">
@@ -56,7 +58,8 @@ const Testimonials = () => {
               <div className="flex flex-row space-x-4 pb-6">
                 <img
                   src={oldCouple}
-                  alt="Mortgage Home screenshot"
+                  loading="lazy"
+                  alt="Testimonial image"
                   className="w-[50px] h-auto object-cover rounded-full"
                 />
                 <div className="text-left">

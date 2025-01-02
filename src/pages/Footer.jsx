@@ -38,21 +38,32 @@ const Footer = () => {
   ];
 
   const socialIcons = [
-    { icon: <FaLinkedinIn />, href: "https://tinyurl.com/LinkedIn-Devrise" },
+    {
+      icon: <FaLinkedinIn />,
+      href: "https://tinyurl.com/LinkedIn-Devrise",
+      iconName: "LinkedIn",
+    },
     {
       icon: <FaFacebookF />,
       href: "https://tinyurl.com/facebook-devrise",
+      iconName: "Facebook",
     },
     {
       icon: <FaTwitter />,
       href: "https://tinyurl.com/X-Devrise",
+      iconName: "Twitter",
     },
     {
       icon: <FaInstagram />,
       href: "https://tinyurl.com/Instagram-Devrise",
+      iconName: "Instagram",
     },
-    { icon: <FaTiktok />, href: "#" },
-    { icon: <FaYoutube />, href: "https://tinyurl.com/Youtube-Devrise" },
+    { icon: <FaTiktok />, href: "#", iconName: "Tiktok" },
+    {
+      icon: <FaYoutube />,
+      href: "https://tinyurl.com/Youtube-Devrise",
+      iconName: "Youtube",
+    },
   ];
 
   return (
@@ -140,7 +151,7 @@ const Footer = () => {
             <a
               key={index}
               href={social.href}
-              className="text-white hover:text-indigo-600 text-2xl"
+              className={`text-white hover:text-primary-color text-2xl ${social.iconName.toLowerCase()}-button`}
             >
               {social.icon}
             </a>

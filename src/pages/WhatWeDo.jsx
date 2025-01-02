@@ -56,7 +56,7 @@ const WhatWeDo = () => {
   return (
     <section className="lg:px-0 py-0">
       <div className="text-center bg-primary-color pt-8 pb-32 lg:pb-28 usm:px-8 usm:pb-48 xl:px-24">
-        <h2 className="text-base font-semibold leading-7 text-gray-900">
+        <h2 className="text-base font-semibold leading-7 text-bleach-blue">
           Take the Next Step
         </h2>
         <p className="mt-2 text-3xl usm:text-2xl font-bold tracking-tight text-bleach-white sm:text-4xl uppercase">
@@ -96,7 +96,7 @@ const WhatWeDo = () => {
         <div className="mt-10 mb-20 usm:my-20 items-center mx-auto">
           <a
             href="#"
-            className="rounded-md bg-primary-color px-5 py-4 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="apply-btn rounded-md bg-primary-color px-5 py-4 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Apply
           </a>
@@ -113,7 +113,8 @@ const WhatWeDo = () => {
             <div className="h-350 w-200 p-4 bg-white rounded-lg shadow-md flex flex-col sm:flex-row lg:flex-col items-center">
               <img
                 src={frontend}
-                alt="Mortgage Home screenshot"
+                alt="Frontend Development"
+                loading="lazy"
                 className="mxl:w-[350px] xl:w-[350px] sm:w-[300px] h-auto object-cover rounded-tl-xl rounded-tr-xl md:rounded-xl lg:rounded-none xl:rounded-none"
               />
               <div className="sm:flex sm:flex-col sm:pl-4 lg:pl-0">
@@ -131,7 +132,7 @@ const WhatWeDo = () => {
             <div className="h-350 w-200 p-4 bg-white rounded-lg shadow-md flex flex-col sm:flex-row lg:flex-col items-center">
               <img
                 src={backend}
-                alt="Mortgage Home screenshot"
+                alt="Backend Development"
                 className="mxl:w-[350px] xl:w-[350px] sm:w-[300px] h-auto object-cover rounded-tl-xl rounded-tr-xl md:rounded-xl lg:rounded-none xl:rounded-none"
               />
               <div className="sm:flex sm:flex-col sm:pl-4 lg:pl-0">
@@ -148,7 +149,8 @@ const WhatWeDo = () => {
             <div className="h-350 w-200 p-4 bg-white rounded-lg shadow-md flex flex-col sm:flex-row lg:flex-col items-center">
               <img
                 src={productDesign}
-                alt="Mortgage Home screenshot"
+                alt="Product Design"
+                loading="lazy"
                 className="mxl:w-[350px] xl:w-[350px] sm:w-[300px] h-auto object-cover rounded-tl-xl rounded-tr-xl md:rounded-xl lg:rounded-none xl:rounded-none"
               />
               <div className="sm:flex sm:flex-col sm:pl-4 lg:pl-0">
@@ -182,7 +184,7 @@ const WhatWeDo = () => {
               it!
             </p>
             <div className="mt-4 items-left flex flex-row justify-start">
-              <button className="mt-4 bg-white text-primary-color font-semibold py-4 px-8 rounded">
+              <button className="learn-more-btn mt-4 bg-white text-primary-color font-semibold py-4 px-8 rounded">
                 Learn More
               </button>
             </div>
@@ -196,8 +198,9 @@ const WhatWeDo = () => {
               </h2>
               <img
                 src={homeApp}
-                alt="Descriptive Alt Text"
+                alt="Devrise App"
                 className="w-full max-w-64 h-auto object-cover"
+                loading="lazy"
               />
             </div>
           </div>
