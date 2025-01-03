@@ -6,6 +6,7 @@ import {
   FaLinkedinIn,
   FaTwitter,
   FaArrowRight,
+  FaArrowUp,
 } from "react-icons/fa";
 
 import copyLogo from "../assets/images/Devrise Logo white.png";
@@ -158,6 +159,18 @@ const Footer = () => {
           ))}
         </div>
       </div>
+
+      {/* Scroll Up Button */}
+      <a
+        href="#"
+        className="scroll-up bg-primary-color text-white p-3 rounded-lg shadow-lg hover:bg-secondary-color transition duration-300 fixed bottom-5 right-5"
+        onClick={(e) => {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }}
+      >
+        <FaArrowUp className="h-6 w-6" />
+      </a>
     </section>
   );
 };

@@ -4,8 +4,8 @@ import Home from "./pages/Home";
 import Header from "./components/Header";
 import Hero from "./pages/Hero";
 import MortgageTech from "./pages/MortgageTech";
-import WhatWeDo from "./pages/WhatWeDo";
 import FAQs from "./pages/FAQs";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<Hero />} />
             <Route path="/how-it-works" element={<MortgageTech />} />
-            <Route path="/our-courses" element={<WhatWeDo />} />
             <Route path="/faq" element={<FAQs />} />
+            <Route path="/contact-us" element={<Footer />} />
           </Routes>
         </Router>
       </main>

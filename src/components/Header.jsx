@@ -12,8 +12,8 @@ const Header = () => {
     { name: "Home", href: "hero", current: false },
     { name: "About", href: "mortgage-tech", current: false },
     { name: "How it works", href: "what-we-do", current: false },
-    { name: "Our Courses", href: "testimonials", current: false },
     { name: "FAQ", href: "faqs", current: false },
+    { name: "Contact Us", href: "contact-us", current: false },
   ];
 
   function classNames(...classes) {
