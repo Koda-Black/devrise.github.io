@@ -24,7 +24,9 @@ const Home = () => {
         <Testimonials />
       </div>
 
-      <Footer />
+      <div id="contact-us">
+        <Footer />
+      </div>
     </section>
   );
 };
