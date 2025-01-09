@@ -102,7 +102,7 @@ const FAQs = () => {
               {logos.map((logo, index) => (
                 <div
                   key={index}
-                  className="flex items-center justify-center w-40 usm:w-32 sm:w-36 md:w-40 lg:w-42 xl:w-44"
+                  className="flex items-center justify-center w-40"
                 >
                   <img
                     src={logo.src}
