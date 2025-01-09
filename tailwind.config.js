@@ -14,6 +14,8 @@ export default {
     extend: {
       animation: {
         "move-arrow": "move 1.5s ease-in-out infinite",
+        "slide-up": "slideUp 0.5s ease-in-out forwards",
+        slide: "slide 20s linear infinite",
       },
       keyframes: {
         move: {
@@ -24,8 +26,9 @@ export default {
           "0%": { transform: "translateX(100%)" },
           "100%": { transform: "translateX(-100%)" },
         },
-        animation: {
-          slide: "slide 20s linear infinite",
+        slideUp: {
+          "0%": { transform: "translateY(0)", opacity: "1" },
+          "100%": { transform: "translateY(-20px)", opacity: "1" },
         },
       },
       backgroundImage: {
