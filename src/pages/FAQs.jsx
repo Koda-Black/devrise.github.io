@@ -2,9 +2,10 @@ import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import faqLady from "../assets/images/faqLady3.png";
 
-import microsoftLogo from "../assets/images/DevRise Logo dark.png";
-import googleLogo from "../assets/images/Devrise Logo white.png";
-import teslaLogo from "../assets/images/DevRise Logo dark.png";
+import devrise from "../assets/images/DevRise Logo dark.png";
+import fitnessspace from "../assets/images/Fitness Space Logo2.png";
+import payu from "../assets/images/payU_LOGO-removebg-preview.png";
+import flutterwave from "../assets/images/flutterwave_logo-removebg-preview.png";
 
 const FAQs = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -14,11 +15,10 @@ const FAQs = () => {
   };
 
   const logos = [
-    { src: microsoftLogo, alt: "Microsoft Logo" },
-    { src: googleLogo, alt: "Google Logo" },
-    { src: teslaLogo, alt: "Tesla Logo" },
-    { src: teslaLogo, alt: "Tesla Logo" },
-    { src: teslaLogo, alt: "Tesla Logo" },
+    { src: devrise, alt: "Devrise Logo" },
+    { src: fitnessspace, alt: "Fitness Space Logo" },
+    { src: payu, alt: "Pay You Logo" },
+    { src: flutterwave, alt: "Flutterwave Logo" },
   ];
 
   const faqItems = [
@@ -98,11 +98,11 @@ const FAQs = () => {
             Our mentors are from
           </p>
           <div className="overflow-hidden py-10">
-            <div className="flex space-x-20 items-center justify-center animate-slide">
+            <div className="flex space-x-20 usm:space-x-6 sm:space-x-10 md:space-x-16 lg:space-x-20 xl:space-x-24 items-center justify-center animate-slide">
               {logos.map((logo, index) => (
                 <div
                   key={index}
-                  className="flex items-center justify-center w-40 p-4 rounded-lg"
+                  className="flex items-center justify-center w-40 usm:w-32 sm:w-36 md:w-40 lg:w-42 xl:w-44"
                 >
                   <img
                     src={logo.src}
