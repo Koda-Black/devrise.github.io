@@ -24,17 +24,17 @@ const Testimonials = () => {
                 />
                 <div className="text-left">
                   <p className="font-bold text-base">Bisi Alabi</p>
-                  <small>Prodigy Finance</small>
+                  <small>PayU | Frontend Web Dev</small>
                 </div>
               </div>
               <p className="text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                consectetur, ipsum non eleifend dictum, velit nunc accumsan
-                velit, at posuere mauris velit at justo.
+                Devrise Coding School helped me pivot into tech with ease. The
+                hands-on projects and mentorship landed me my first job as a
+                front-end developer. Highly recommend!
               </p>
             </div>
 
-            <div className="h-full w-full p-6 bg-white rounded-lg shadow-md flex flex-col">
+            <div className="h-full w-full p-6 md:p-4 bg-white rounded-lg shadow-md flex flex-col">
               <div className="flex flex-row space-x-4 pb-6">
                 <img
                   src={vanCouple}
@@ -44,17 +44,17 @@ const Testimonials = () => {
                 />
                 <div className="text-left">
                   <p className="font-bold text-base">C. Oluebube</p>
-                  <small>Dumbely Wool</small>
+                  <small>Coral Pay | Backend Developer</small>
                 </div>
               </div>
               <p className="text-center pb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                consectetur, ipsum non eleifend dictum, velit nunc accumsan
-                velit, at posuere mauris velit at justo.
+                I thought coding was too hard, but Devrise made it simple.
+                Thanks to their guidance, I’m now a backend engineer mentoring
+                others!
               </p>
             </div>
 
-            <div className="h-full w-full p-6 bg-white rounded-lg shadow-md flex flex-col">
+            <div className="h-full w-full p-6 md:p-4 bg-white rounded-lg shadow-md flex flex-col">
               <div className="flex flex-row space-x-4 pb-6">
                 <img
                   src={oldCouple}
@@ -64,13 +64,13 @@ const Testimonials = () => {
                 />
                 <div className="text-left">
                   <p className="font-bold text-base">Uche Nnamani</p>
-                  <small>Fitness Space</small>
+                  <small>Fitness Space | Mentor</small>
                 </div>
               </div>
               <p className="text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                consectetur, ipsum non eleifend dictum, velit nunc accumsan
-                velit, at posuere mauris velit at justo.
+                Mentoring at Devrise has been so rewarding. Watching students
+                grow into skilled developers is amazing. This school changes
+                lives!
               </p>
             </div>
           </div>

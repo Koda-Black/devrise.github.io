@@ -72,7 +72,7 @@ const MortgageTech = () => {
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   We are on a mission to help busy professionals easily
                   transition into tech by teaching them the necessary skills in
-                  a manner it does not interfere with their daily jobs, and
+                  a manner that it does not interfere with their daily jobs, and
                   providing a community to enable their fast-paced growth.
                 </p>
                 <dl className="mt-0 max-w-xl space-y-8 lg:space-y-4 text-base leading-7 text-gray-600 lg:max-w-none">

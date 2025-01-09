@@ -24,8 +24,8 @@ const WhatWeDo = () => {
     },
     {
       id: 2,
-      name: "Virtual Interview",
-      description: "You’ll be invited for a virtual interview.",
+      name: "Virtual Introduction",
+      description: "You’ll be invited for a virtual introduction.",
       value: (
         <BriefcaseIcon
           className="h-8 w-8 text-primary-color"

@@ -43,7 +43,7 @@ const FAQs = () => {
     {
       question: "Is the Program just for Nigerians?",
       answer:
-        "No, DEVRISE is designed for every professional around the would seeking to pivot into tech.",
+        "No, DEVRISE is designed for every professional around the world seeking to pivot into tech.",
     },
   ];
 
