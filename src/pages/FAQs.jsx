@@ -5,7 +5,7 @@ import faqLady from "../assets/images/faqLady3.png";
 import devrise from "../assets/images/DevRise Logo dark.png";
 import fitnessspace from "../assets/images/Fitness Space Logo2.png";
 import payu from "../assets/images/payU_LOGO-removebg-preview.png";
-import flutterwave from "../assets/images/flutterwave_logo-removebg-preview.png";
+import flutterwave from "../assets/images/flutterwave logo2.png";
 
 const FAQs = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -102,7 +102,7 @@ const FAQs = () => {
               {logos.map((logo, index) => (
                 <div
                   key={index}
-                  className="flex items-center justify-center w-40"
+                  className="flex items-center justify-center w-40 usm:w-60"
                 >
                   <img
                     src={logo.src}
