@@ -25,7 +25,8 @@ const postData: DataType[] = [
   {
     profession: "Fullstack Developer",
     name: "John Nnamdi",
-    imgSrc: "/assets/students/user-2.jpg",
+    // imgSrc: "/assets/students/user-2.jpg",
+    imgSrc: "/assets/students/Nnamdi.jpeg",
     starimg: "/assets/students/stars.png",
     detail:
       "Devrise Coding School helped me pivot into tech with ease. The hands-on projects and mentorship landed me my first job as a front-end developer. Highly recommend!",
